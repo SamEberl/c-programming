@@ -36,8 +36,6 @@ int main() {
   working.contribution = 1000;
   working.rate_of_return = 0.045/12;
 
-  printf("rate_of_return: %f\n", working.rate_of_return);
-
   retire_info retired;
   retired.months = 384;
   retired.contribution = -4000;
